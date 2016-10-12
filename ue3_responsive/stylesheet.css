@@ -1,0 +1,182 @@
+
+#wrapper{
+	border: 1px black solid;
+	width:90%;
+	height:90% ;
+	margin: auto;
+
+}
+.head{
+	border: 1px black solid;
+	margin: 3px;
+	text-align: center;
+	width: 99.5%;
+	margin-bottom: 15px;
+	height: 100px;
+}
+.main{
+	border: 1px black solid;
+	margin: 3px;
+	height: 550px;
+	width: 80%;
+	float: left;
+	margin-bottom: 15px;
+}
+.side{
+	border: 1px black solid;
+	margin: 3px;
+	height: 550px;
+	width: 19%;
+	text-align: center;
+	float: left;
+	margin-bottom: 15px;
+
+}
+@media (max-width: 768px) { 
+	.side{
+	border: 1px black solid;
+	margin: 3px;
+	height: 1200px;
+	width: 16%;
+	text-align: center;
+	
+	margin-bottom: 15px;
+
+}
+
+#wrapper{
+	border: 1px black solid;
+	width:90%;
+	height:90% ;
+	margin: auto;
+
+}
+.head{
+	border: 1px black solid;
+	margin: 3px;
+	text-align: center;
+	width: 99.5%;
+	margin-bottom: 15px;
+	height: 100px;
+}
+.main{
+	border: 1px black solid;
+	margin: 3px;
+	height: 1200px;
+	width: 95%;
+
+	float: left;
+	margin-bottom: 15px;
+	overflow: hidden;
+	overflow: ellipsis;
+}
+
+
+
+
+}
+@media (min-width: 768px) and (max-width: 992px) { 
+	.side{
+	border: 1px black solid;
+	margin: 3px;
+	height: 550px;
+	width: 18%;
+	text-align: center;
+	float: left;
+	margin-bottom: 15px;
+
+}
+
+#wrapper{
+	border: 1px black solid;
+	width:90%;
+	height:90% ;
+	margin: auto;
+
+}
+.head{
+	border: 1px black solid;
+	margin: 3px;
+	text-align: center;
+	width: 99.5%;
+	margin-bottom: 15px;
+	height: 100px;
+}
+.main{
+	border: 1px black solid;
+	margin: 3px;
+	height: 550px;
+	width: 95%;
+	float: left;
+	margin-bottom: 15px;
+}
+
+
+
+}
+@media (min-width: 992px) and (max-width: 1200px) { 
+	.side{
+	border: 1px black solid;
+	margin: 3px;
+	height: 500px;
+	width: 18%;
+	text-align: center;
+	float: left;
+	margin-bottom: 10px;
+
+}
+
+#wrapper{
+	border: 1px black solid;
+	width:90%;
+	height:90% ;
+	margin: auto;
+
+}
+.head{
+	border: 1px black solid;
+	margin: 3px;
+	text-align: center;
+	width: 99.5%;
+	margin-bottom: 10px;
+	height: 100px;
+}
+.main{
+	border: 1px black solid;
+	margin: 3px;
+	height: 500px;
+	width: 80%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+
+}
+.footer{
+	clear: both;
+	border: 1px black solid;
+	margin: 3px;
+	text-align: center;
+	width: 99.5%;
+}
+
+
+.div1 {
+	
+	float: left;
+	
+	
+}
+.div2{
+
+	float: left;
+	
+
+}
+.div3 {
+
+	float: left;
+	
+
+}
