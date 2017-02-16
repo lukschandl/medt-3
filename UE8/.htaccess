@@ -1,0 +1,10 @@
+
+
+ 
+AuthType Basic
+AuthName "Service-Bereich"
+AuthUserFile C:\xampp\htdocs\medt-3\UE8\.htpasswd
+
+ Require valid-user
+
+
