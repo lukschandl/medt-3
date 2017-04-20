@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="jquery-3.2.0.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function()
+        {
+            $('#para1').click(changeText);
+        });
+
+
+        function changeText()
+        {
+            $('#para1').html("Some new text here");
+        };
+    </script>
+</head>
+<body>
+<p id="para1" style="cursor:pointer">Some text here</p>
+</body>
+</html>

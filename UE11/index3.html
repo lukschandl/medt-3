@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>getelementbyId example</title>
+
+<head>
+    <title></title>
+</head>
+<body>
+<p id="para1" style="cursor: pointer;">Some text here</p>
+<script>
+var myp_Objekt = document.getElementById("para1");
+myp_Objekt.addEventListener('click', changeText, false);
+
+function changeText() {
+    var myp_Objekt = document.getElementById("para1");
+    myp_Objekt.innerHTML = "Some new text here";
+}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>getelementbyId example</title>
+
+<head>
+	<title></title>
+</head>
+<body>
+<p id="text">Some text here</p>
+<script type="text/javascript">
+	
+document.getElementById("text").onclick = changeText;
+	function changeText () {
+
+
+		
+		document.getElementById("text").innerHTML = "Some <b>new</b> text here";
+	};
+
+</script>
+</body>
+</html>
